@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <link rel="preload" href="assets/filter.svg" as="image">
+    <link rel="preload" href="assets/label.svg" as="image">
+    <link rel="preload" href="assets/info.svg" as="image">
+    <link rel="preload" href="assets/link.svg" as="image">
+    <link rel="preload" href="assets/online.svg" as="image">
+    <link rel="preload" href="assets/shipping.svg" as="image">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Покупка частинами</title>
+</head>
+
+<body style="opacity: 0">
+    <!-- О, здоровенькі були! -->
+    <header>
+        <div id="filter-button"><img src="assets/filter.svg"></div>
+        <div id="title">Покупка частинами</div>
+
+    </header>
+
+    <nav id="filters">
+        <div class="list-name">Категорії</div>
+        <div id="categories">
+            <div class="nav-item">Завантаження...</div>
+        </div>
+    </nav>
+    <div id="closer"></div>
+    <main id="main">
+        <div class="loader">Зачекайте...</div>
+    </main>
+    <footer>
+        <div id="dev" onclick="window.open('https://sominemo.com', '_blank')">Created by Sominemo in 2019 for Гусятниця</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
