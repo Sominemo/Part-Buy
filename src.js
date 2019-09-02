@@ -194,7 +194,7 @@ let categoriesLoaded = false
 
 window.addEventListener("load", async () => {
     document.body.style.opacity = 1
-    if (typeof window.webkitConvertPointFromNodeToPage !== 'function' || !(/(MSIE|Trident\/|Edge\/)/i.test(navigator.userAgent))) {
+    if (typeof window.webkitConvertPointFromNodeToPage !== 'function' && !(/(MSIE|Trident\/|Edge\/)/i.test(navigator.userAgent))) {
         const promo = document.createElement("div")
         promo.className = "nav-item red"
         promo.innerHTML = `Спробуйте Mono PWA <span style="opacity: .5;">(beta)</span>`
