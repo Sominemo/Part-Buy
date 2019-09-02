@@ -291,5 +291,3 @@ footer:hover {
     text-align: center;
     padding: 15px;
 }
-
-@import url('dark.css') (prefers-color-scheme: dark);
