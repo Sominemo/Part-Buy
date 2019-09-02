@@ -28,3 +28,11 @@ nav.shown+#closer {
 img[src="assets/label.svg"], img[src="assets/info.svg"], img[src="assets/link.svg"], img[src="assets/online.svg"], img[src="assets/shipping.svg"] {
     filter: invert(1);
 }
+
+#menu-button:hover::before, #filter-button:hover::before {
+    background: rgba(255, 255, 255, .1);
+}
+
+#menu-button:active::before, #filter-button:active::before {
+    background: rgba(255, 255, 255, .15);
+}
