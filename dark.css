@@ -36,3 +36,19 @@ img[src="assets/label.svg"], img[src="assets/info.svg"], img[src="assets/link.sv
 #menu-button:active::before, #filter-button:active::before {
     background: rgba(255, 255, 255, .15);
 }
+
+.logo {
+    background: rgba(255, 255, 255, .3);
+}
+
+.placeholder {
+    color: black;
+}
+
+.list:hover {
+    background: rgba(255, 255, 255, .05);
+}
+
+.list:active {
+    background: rgba(255, 255, 255, .1);
+}
